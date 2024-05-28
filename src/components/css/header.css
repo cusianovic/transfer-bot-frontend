@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Teko:wght@300..700&display=swap');
+
+
+.teko-400 {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }reset style on element css
+  
+
+.HeaderBox{
+    flex: 0 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 30px;
+      
+}
+
+
+.wrapper{
+    width: 95vw;
+    margin: 0 auto;
+
+}
+
+.HeaderWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:50px;
+}
+
+.HeaderWrapper a{
+    all: unset;
+    cursor:pointer;
+}

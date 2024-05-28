@@ -1,0 +1,41 @@
+.messagebox{
+    flex: 0 1 40px;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid grey;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .messagebox{
+        width: 98vw;
+    }
+}
+
+.submit{
+    position: relative;
+    border-radius: 25%;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin-right: 10px;
+}
+
+#prompt-textarea{
+    resize: none;
+    margin:10px;
+    width: 500px;
+    font-size: 16px;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+#submit-icon{
+    height: inherit;
+    width: inherit;
+}

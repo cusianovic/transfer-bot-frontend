@@ -1,0 +1,27 @@
+
+.message{
+    width: 750px;
+}
+
+@media only screen and (max-width: 750px) {
+    .message{
+        width: 95%;
+    }
+}
+
+.messageUser{
+    font-weight: bold;
+    user-select: none;
+    font-size: 0.95rem;
+}
+
+.messageText{
+    font-size: 0.93rem;
+    line-height: 1.5rem;
+}
+
+.markdownParser p {
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
